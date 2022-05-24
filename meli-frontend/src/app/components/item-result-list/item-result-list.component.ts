@@ -11,8 +11,9 @@ export class ItemResultListComponent implements OnInit {
   @Input() title!: String;
   @Input() price!: any;
   @Input() state_name!: any;
+  @Input() free_shipping!: any;
 
-
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -23,6 +23,9 @@ Para la ejecucion del proyecto alojado en el repositorio llamado Meli se debe in
 el proyecto se ejcutara en la ruta http://localhost:3071/
 
 ## Ejecucion Meli-Frontend
-Si se desea ejecutar el proyecto frontend de manera independiente se debe ejecutar el comando npm install para la descarga de dependencias. Posteriormente ejecutar el comando npm start para su ejecucion.
+Si se desea ejecutar el proyecto frontend de manera independiente se debe ejecutar previamente el comando npm install -g @angular/cli. Posteriormente se debe ejecutar el comando npm install para la descarga de dependencias. Posteriormente ejecutar el comando npm start para su ejecucion.
 
 el proyecto frontend se ejcutara en la ruta http://localhost:4200/  y hara uso de las apis del proytecto meli mencionado anteriormente por lo que este se debe encontrar en ejecucion para el correcto funcionamiento.
+
+## Video Funcionamiento
+https://drive.google.com/file/d/12mB_W0DlRCoqCeQXbah5Xk2ZJ5bn9Vha/view?usp=sharing
