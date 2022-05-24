@@ -1,0 +1,41 @@
+.itemResultListPanel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  padding: 16px;
+  border-bottom: 2px solid #EEE;
+
+  .itemResultListPanel-image {
+    margin-right: 16px;
+
+    img {
+      height: 180px;
+      width: 180px;
+      border-radius: 4px;
+    }
+  }
+
+  .itemResultListPanel-desc {
+    flex-grow: 6;
+
+    .itemResultListPanel-descPrice {
+      font-size: 24px;
+      margin-bottom: 32px;
+    }
+
+    p {
+      width: 70%;
+      text-align: justify;
+      font-size: 18px;
+    }
+  }
+
+  .itemResultListPanel-location {
+    padding-right: 4em;
+    text-align: right;
+    span {
+      font-size: 12px;
+    }
+  }
+}

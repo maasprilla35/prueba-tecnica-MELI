@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFE600;
+  text-align: center;
+
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0.5em 0;
+
+    input {
+      width: 90%;
+      font-size: 18px;
+      border: none;
+      padding: 0.4em;
+      border-top-left-radius: 0.1em;
+      border-bottom-left-radius: 0.1em;
+    }
+
+    .navbar-searchIcon {
+      background-color: #EEEEEE;
+      padding: 0.55em;
+      //   height: 2.25em;
+      //   width: 2.25em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top-right-radius: 0.1em;
+      border-bottom-right-radius: 0.1em;
+    }
+  }
+}

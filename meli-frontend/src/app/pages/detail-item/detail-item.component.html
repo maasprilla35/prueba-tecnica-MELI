@@ -1,0 +1,24 @@
+<section id="mainContainer">
+    <app-breadcrumb [category]="'Electrónica, Audio Y Video'" [item]="title"></app-breadcrumb>
+    <div class="resultPanel">
+        <div class="InformationPanel">
+            <div class="itemInformation-gallery">
+                <div class="itemInformation-galleryImg">
+                    <img [src]="secure_thumbnail" alt="">
+                </div>
+                <div class="InformationPanelDesc">
+                    <h1 *ngIf="description" class="InformationPanelDesc-title">Descripción del producto</h1>
+                    <p *ngIf="description">{{description}}</p>
+                </div>
+            </div>
+            <div class="itemInformation">
+                <div class="itemInformation-estado">
+                    <span>{{condition}}</span> - <span>{{sold_quantity}} Vendidos</span>
+                </div>
+                <span class="itemInformation-title">{{title}}</span>
+                <span class="itemInformation-precio">{{price | currency : 'USD' : 'symbol' : '1.0-0'}}</span>
+                <button class="itemInformation-btncomprar">Comprar</button>
+            </div>
+        </div>
+    </div>
+</section>

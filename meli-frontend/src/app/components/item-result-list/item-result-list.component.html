@@ -1,0 +1,12 @@
+<div class="itemResultListPanel">
+    <div class="itemResultListPanel-image">
+        <img [src]="thumbnail" alt="">
+    </div>
+    <div class="itemResultListPanel-desc">
+        <span class="itemResultListPanel-descPrice">{{price | currency : 'USD' : 'symbol' : '1.0-0'}}</span>
+        <p>{{title}}</p>
+    </div>
+    <div class="itemResultListPanel-location">
+        <span>{{state_name}}</span>
+    </div>
+</div>

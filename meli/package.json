@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-4-stable-Sample",
+  "version": "1.0.0",
+  "description": "OpenShift Node.js 4 Stable Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift",
+    "express"
+  ],
+  "author": {
+    "name": "Andrea Tarquini",
+    "email": "tarquiniandreagm@gmail.com",
+    "url": "https://blog.h4t0n.com"
+  },
+  "homepage": "http://blog.h4t0n.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h4t0n/nodejs-4-lts-openshift.git"
+  },
+  "engines": {
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "content-security-policy": "^0.3.3",
+    "express": "^4.13.3",
+    "frameguard": "^3.0.0",
+    "jade": "^1.11.0",
+    "node-fetch": "^2.6.7",
+    "serve-favicon": "^2.3.0",
+    "x-frame-options": "^1.0.0",
+    "x-xss-protection": "^1.1.0"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}

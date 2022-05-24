@@ -1,0 +1,86 @@
+#mainContainer {
+  // padding: 0 10% 5% 10%;
+  padding: 0 15% 5% 15%;
+
+
+  .resultPanel {
+    background-color: white;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+
+    .InformationPanel {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: row;
+
+      .itemInformation-gallery {
+        width: 680px;
+        height: auto;
+
+        .itemInformation-galleryImg {
+          img {
+            width: 680px;
+            height: 680px;
+          }
+        }
+
+        .InformationPanelDesc {
+          .InformationPanelDesc-title {
+            font-size: 28px;
+            margin-bottom: 32px;
+          }
+
+          p {
+            font-size: 16px;
+            margin: 0;
+            text-align: justify;
+            color: #999999;
+          }
+        }
+      }
+
+      .itemInformation {
+
+        padding-left: 32px;
+
+        .itemInformation-estado {
+          display: block;
+          font-size: 14px;
+          margin-top: 32px;
+          margin-bottom: 16px;
+        }
+
+        .itemInformation-title {
+          display: block;
+          font-size: 24px;
+          margin-bottom: 32px;
+          font-weight: bold;
+        }
+
+        .itemInformation-precio {
+          display: block;
+          font-size: 46px;
+          margin-bottom: 32px;
+        }
+
+        .itemInformation-btncomprar {
+          background-color: #3483FA;
+          border: none;
+          border-radius: 0.2em;
+          color: white;
+          padding: 0.8em 0;
+          width: 100%;
+          max-width: 15em;
+          margin-right: 32px;
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,8 @@
+<section id="mainContainer">
+    <app-breadcrumb [category]="'Electrónica, Audio Y Video'" [item]="search"></app-breadcrumb>
+    <div class="resultPanel">
+        <app-item-result-list *ngFor="let item of items" [thumbnail]="item.picture" [title]="item.title"
+            [price]="item.price.amount" [state_name]="item.state_name" (click)="goDetail(item.id)">
+        </app-item-result-list>
+    </div>
+</section>
